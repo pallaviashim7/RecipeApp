@@ -11,10 +11,24 @@
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
+* Initial system design - List down important modules, features that is required. Helped me decide on estimation.
+* Unit testing - Used previews while developing inorder to capture errors in the initial state
+* Dependency Injection - Importantly added for unit testing
+* Structuring of project - Very important when comes to bigger applications when many teams work together
+
 ### Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
+* 4-5 hours 
+* Made the UI layer first with mock data
+* Made the backend/Network layer and connected.
+* Added UI tests
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
+* I am someone who likes to have its own model for each control , other than having to use the api data models. I firmly believes that having dedicated 
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
+* UI design - adopted the bare minimum
+* Network error handling - Just looking for response data and not the response code.
+* Device support. Havent tested on all oriendation and devices
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
+Changing libraries and methods in SwiftUI made me a little slower. 
