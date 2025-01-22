@@ -23,7 +23,7 @@
 * Added UI tests
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
-* I am someone who likes to have its own model for each control , other than having to use the api data models. I firmly believes that having dedicated 
+* I firmly believes that having dedicated models will help in decoupling the UI layer for network layer . For simplicity of the project i have not used that approach.
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
 * UI design - adopted the bare minimum
